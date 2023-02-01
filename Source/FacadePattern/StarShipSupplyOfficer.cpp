@@ -27,6 +27,7 @@ void AStarShipSupplyOfficer::Obligacion()
     //Imprimir cadena de obligacion
     GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("%s garantiza que haya suministros suficientes para los barcos."), *TituloDeLaTripulacion()));
 }
+
 FString AStarShipSupplyOfficer::TituloDeLaTripulacion()
 {
     //Devuelve el titulo

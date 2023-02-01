@@ -57,12 +57,12 @@ void AStarShipCrewMember::Tarea(const TArray<FString>& _Tareas)
 	//Haga un bucle en la matriz Tareas y llame a la función Tarea() para cada una de ellas
 	for (const FString& myTarea : _Tareas)
 	{
-		Tarea(myTarea);
+		ValidarTareas(myTarea);
 	}
 
 }
 
-void AStarShipCrewMember::Tarea(const FString& Tarea)
+void AStarShipCrewMember::ValidarTareas(const FString& Tarea)
 {
     //Comprueba qué tarea debe ejecutarse
     if (Tarea.Equals("Apagar luces"))

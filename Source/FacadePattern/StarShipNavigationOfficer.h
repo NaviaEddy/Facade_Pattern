@@ -27,10 +27,10 @@ public:
     virtual void Tick(float DeltaTime) override;
 
     //Función Interfaz Obligacion - Imprime el registro de la Obligacion
-    virtual void Obligacion() override;
+    void Obligacion() override;
 
     //Funcion Interfaz Tripulacion - Devuelve el nombre
-    virtual FString TituloDeLaTripulacion() override;
+    FString TituloDeLaTripulacion() override;
 
 	
 };

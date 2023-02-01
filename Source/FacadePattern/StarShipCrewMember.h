@@ -40,13 +40,13 @@ public:
     void Tarea(const TArray<FString>& _Tareas);
 
     //Ejecuta la tarea del miembro. Es virtual puro, por lo que no necesita una implementación en esta clase
-    virtual void Obligacion() PURE_VIRTUAL(AStarShipCrewMember::Duty;);
+    virtual void Obligacion() PURE_VIRTUAL(AStarShipCrewMember::Obligacion;);
 
     //Devuelve el titulo de la tripulacion. Es virtual puro, por lo que no necesita una implementación en esta clase
-    virtual FString TituloDeLaTripulacion() PURE_VIRTUAL(AStarShipCrewMember::CrewTitle, return "";);
+    virtual FString TituloDeLaTripulacion() PURE_VIRTUAL(AStarShipCrewMember::TituloDeLaTripulacion, return "";);
 
 private:
     //Ejecutar la tarea pasada
-    void Tarea(const FString& Tarea);
+    void ValidarTareas(const FString& Tarea);
 
 };
