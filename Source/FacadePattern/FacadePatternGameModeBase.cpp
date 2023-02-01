@@ -2,7 +2,7 @@
 
 
 #include "FacadePatternGameModeBase.h"
-#include "StarShipFacade.h"
+#include "StarShipFacade.h" //Fachada de la nave estelar
 
 AFacadePatternGameModeBase::AFacadePatternGameModeBase()
 {

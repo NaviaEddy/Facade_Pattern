@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "StarShipCrewMember.h"
+#include "StarShipCrewMember.h" //Tripulacion de una nave estelar
 #include "StarShipSupplyOfficer.generated.h"
 
 /**
@@ -16,7 +16,7 @@ class FACADEPATTERN_API AStarShipSupplyOfficer : public AStarShipCrewMember
 
 public:
     // Sets default values for this actor's properties
-    AStarShipSupplyOfficer();
+    AStarShipSupplyOfficer(); //Oficial de suministros de naves estelares
 
 protected:
     // Called when the game starts or when spawned

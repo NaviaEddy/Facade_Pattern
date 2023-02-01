@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "StarShipCrewMember.h"
+#include "StarShipCrewMember.h" //Tripulacion de una nave estelar
 #include "StarShipNavigationOfficer.generated.h"
 
 /**
@@ -16,7 +16,7 @@ class FACADEPATTERN_API AStarShipNavigationOfficer : public AStarShipCrewMember
 
 public:
     // Sets default values for this actor's properties
-    AStarShipNavigationOfficer();
+    AStarShipNavigationOfficer(); //Oficial de navegación de naves estelares
 
 protected:
     // Called when the game starts or when spawned

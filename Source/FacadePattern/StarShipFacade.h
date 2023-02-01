@@ -3,7 +3,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "StarShipCrewMember.h"
+#include "StarShipCrewMember.h" //Tripulacion de una nave estelar
 #include "StarShipFacade.generated.h"
 
 UCLASS()
@@ -13,7 +13,7 @@ class FACADEPATTERN_API AStarShipFacade : public AActor
 	
 public:	
 	// Sets default values for this actor's properties
-	AStarShipFacade();
+	AStarShipFacade(); //Fachada de la nave estelar
 
 private:
 
