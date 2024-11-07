@@ -1,0 +1,41 @@
+# Unreal Engine
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Compiled binary
+*.dll
+*.pdb
+*.so
+*.dylib
+
+# Compiled dynamic libraries
+Binaries/
+
+# Build files
+Build/
+
+# Visual Studio files
+.vs/
+*.suo
+*.vcxproj
+*.vcxproj.filters
+
+# Xcode files
+*.xcodeproj/
+*.xcworkspace/
+
+# Compiled Shader Cache
+*.ushaderbytecode
+*.ushadercode
+*.usf
+*.usfx
+
+# Logs
+*.log
+
+# Swarm Agent
+SwarmCache/
+
+# Metadata files
+*.meta
